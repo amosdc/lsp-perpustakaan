@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
+    <style>
+       
+.container-fluid{
+    position: absolute;
+}       
+
+.header.text-center{
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: -30px;
+    background-color: #3944A7;
+    border-radius: 5px;
+}
+
+.container.utama{
+    border-top: 1px solid black;
+}
+     
+
+.container-buku{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.row-produk{
+    display: flex;
+    overflow: auto;
+    padding: 20px 0 0 0;
+}
+
+.row-produk::-webkit-scrollbar {
+    display: none;
+}
+
+.row.judul, .text-judul{
+    height: 25px;
+}
+
+.text-judul p{
+    font-size: 20px;
+}
+
+.text-judul a p{
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+}
+
+.col-produk{
+    /* width: 150px;
+    height: 220px; */
+    margin: 0 17px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    &:hover{
+        transform: translateY(-0.30em);
+        box-shadow: 0.7px 0.7px 30px rgb(201, 201, 201);
+    }
+}
+
+
+.col-produk span.nama{
+    font-size: 15px;
+}
+
+.col-produk .img{
+    width: 150px;
+    height: 220px;
+}
+
+.col-produk img{
+    width: 150px;
+    height: 220px;
+}
+
+.col-produk a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C439B;
+}
+
+.text{
+
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid mt-5">
+        <div class="header text-center d-flex align-items-center justify-content-center ">
+            <h2 class="">Kategori Buku</h2>
+
+        </div>
+
+        <div class="container utama ">
+            <div class="row judul d-flex align-items-end mt-5">
+                <div class="col text-judul">
+                     <p >T Shirt</p>
+                </div>
+                <div class="col text-end text-judul">
+                    <a href="" class="no-decoration">
+                        <p>Selengkapnya</p>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="container-buku shadow">
+                <div class="row-produk">
+                    <div class="col-produk">
+                        <div class="img">
+                           <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                              <p><span class="nama">Moshpit Black T </span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                         </div>
+                         
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Gray T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Cream T Shirt</span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                   
+            </div>
+                
+            </div>
+        </div>
+
+        <div class="container  ">
+            <div class="row judul d-flex align-items-end mt-3">
+                <div class="col text-judul">
+                     <p >T Shirt</p>
+                </div>
+                <div class="col text-end text-judul">
+                    <a href="" class="no-decoration">
+                        <p>Selengkapnya</p>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="container-buku shadow">
+                <div class="row-produk">
+                    <div class="col-produk">
+                        <div class="img">
+                           <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                              <p><span class="nama">Moshpit Black T </span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                         </div>
+                         
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Gray T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Cream T Shirt</span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                   
+            </div>
+                
+            </div>
+        </div>
+
+        <div class="container  ">
+            <div class="row judul d-flex align-items-end mt-3">
+                <div class="col text-judul">
+                     <p >T Shirt</p>
+                </div>
+                <div class="col text-end text-judul">
+                    <a href="" class="no-decoration">
+                        <p>Selengkapnya</p>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="container-buku shadow">
+                <div class="row-produk">
+                    <div class="col-produk">
+                        <div class="img">
+                           <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                              <p><span class="nama">Moshpit Black T </span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                         </div>
+                         
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Gray T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt=""> 
+                        </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Cream T Shirt</span></p>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-produk">
+                        <div class="img">
+                            <img src="img/buku.jpg" alt="nunggu asset alip"> 
+                         </div>
+                        <div class="text">
+                            <a href="">
+                                <p><span class="nama">Moshpit Black T Shirt</span></p> 
+                            </a>
+                        </div>
+                    </div>
+                   
+            </div>
+                
+            </div>
+        </div>
+        
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+    
+
+    
+</body>
+</html>

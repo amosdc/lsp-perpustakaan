@@ -1,0 +1,102 @@
+.no-decoration{
+    text-decoration: none;
+}
+span{
+    font-weight: 40000;
+}
+.ijo{
+    font-weight: 600;
+    color: #198754;
+}
+
+.biru{
+    color: #1C439B;
+}
+
+body{
+
+}
+
+ a.profil-user{
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+}
+
+.warna-biru{
+    background-color:#3944A7;
+}
+
+.menu-dropdown{
+    height: 40px;
+    width: 150px;
+    margin-left: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu-dropdown li a.dropdown-item, a.dropdown-toggle{
+    color: #472183 !important;
+    margin-left: 7px ;
+}
+
+.dropdown-menu{
+    position:relative;
+    z-index: 999;
+}
+
+
+/* row detail-buku */
+
+
+.detail-buku .img img{
+    width: 340px;
+    height: 500px;
+}
+
+.detail-buku h2.text-start{
+    font-weight: 350 !important;
+    margin-bottom: 10px;
+}
+
+.detail-buku div.text-detail{
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.detail-buku .col-lg p{
+    text-align: justify;
+}
+
+.detail-buku form button{
+    background-color: #1C439B;  
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .detail-buku .img img{
+        height: 250px;
+        width: 170px;
+        margin: 0 25px;
+
+    }
+    .detail-buku div.text-detail{
+        margin:20px 25PX;
+        width: 80%;
+
+    }
+    .detail-buku .text-detail p{
+        /* width: 70%; */
+    }
+
+    /* pengumuman */
+    .detail-buku .pengumuman{
+        display: none;
+    }
+}

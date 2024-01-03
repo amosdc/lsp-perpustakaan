@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+span{
+    font-weight: 40000;
+}
+.ijo{
+    font-weight: 600;
+    color: #198754;
+}
+
+.biru{
+    color: #143173;
+}
+
+body{
+
+}
+
+ a.profil-user{
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+}
+
+.warna-biru{
+    background-color:#3944A7;
+}
+
+.menu-dropdown{
+    height: 40px;
+    width: 150px;
+    margin-left: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dropdown-menu{
+    position:relative;
+    z-index: 22;
+}
+/* Aktifitas */
+.jumbotron{
+    height: 220px;
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.jumbotron .hero-section{
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+    position: absolute;
+    bottom: 0;
+  }
+
+h1.hero-items{
+    padding-top: 4rem;
+}
+
+.pengumuman{
+    margin: 1rem;
+    width: 400px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.menu-pengumuman{
+    margin: auto;
+}
+
+.card-berita{
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.menu-berita{
+    width: 265px;
+    height: 375px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.card-img-top{
+    width: 265px;
+    height: 265px;
+}
+
+.tanggal{
+    font-size: small;
+    color: #0d6efd !important;
+}
+
+
+/* Kategori Buku */     
+.container-fluid.buku{
+    /* s */
+}       
+
+.header.text-center{
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: -30px;
+    background-color: #3944A7;
+    border-radius: 5px;
+}
+
+.container.utama{
+    border-top: 1px solid black;
+}
+     
+
+.container-buku{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.row-produk{
+    display: flex;
+    overflow: auto;
+    padding: 20px 0 0 0;
+}
+
+.row-produk::-webkit-scrollbar {
+    display: none;
+}
+
+.row.judul, .text-judul{
+    height: 25px;
+}
+
+.text-judul p{
+    font-size: 20px;
+}
+
+.text-judul a p{
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+}
+
+.col-produk{
+    /* width: 150px;
+    height: 220px; */
+    margin: 0 17px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    &:hover{
+        transform: translateY(-0.30em);
+        box-shadow: 0.7px 0.7px 30px rgb(201, 201, 201);
+    }
+}
+
+
+.col-produk span.nama{
+    font-size: 15px;
+}
+
+.col-produk .img{
+    width: 150px;
+    height: 220px;
+}
+
+.col-produk img{
+    width: 150px;
+    height: 220px;
+}
+
+.col-produk a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C439B;
+}
+
+
+
+/* Profil */
+
+
+.profil img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.profil .box-panduan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3944A7;
+    width: 300px;
+    height: 75px;
+    border-radius: 10px;
+    transition: 0.7s;
+
+  &:hover {
+    box-shadow: 0 0.25em 0.25em -0.2em #7582ff ;
+    transform: translateY(-0.45em);
+
+  }
+}
+
+
+
+.profil .box-panduan h6 {
+    color: white;
+}
+
+.profil .tata-tertib{
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+
+/* FAQ */
+.container .faq{
+    
+}
+
+
+/* footer */
+footer{
+    margin-top: 50px;
+    height: 200px;
+}
